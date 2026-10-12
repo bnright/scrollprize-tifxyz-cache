@@ -1,0 +1,6 @@
+Source: ScrollPrize/villa 25f3c93; variant: candidate
+Input: original PHerc0139 w025 mesh, scan 20250728140407, 9.362 um
+First request 128^3: 215 patches
+Changed request 256^3: 104 patches
+Fresh reference 256^3: 104 patches
+PASS: every ordered 2D/3D patch bound equals fresh computation

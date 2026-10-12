@@ -1,0 +1,88 @@
+.FFFFF..FFFF.F..FFFF                                                     [100%]
+================================== FAILURES ===================================
+_____ test_changed_parameter_invalidates_memory_cache[target_size-value0] _____
+tests\test_patch_cache.py:76: in test_changed_parameter_invalidates_memory_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+____ test_changed_parameter_invalidates_memory_cache[overlap_fraction-0.5] ____
+tests\test_patch_cache.py:76: in test_changed_parameter_invalidates_memory_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+___ test_changed_parameter_invalidates_memory_cache[coarse_multiplier-3.0] ____
+tests\test_patch_cache.py:76: in test_changed_parameter_invalidates_memory_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+_ test_changed_parameter_invalidates_memory_cache[num_calibration_samples-32] _
+tests\test_patch_cache.py:76: in test_changed_parameter_invalidates_memory_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+____ test_changed_parameter_invalidates_memory_cache[min_new_coverage-0.2] ____
+tests\test_patch_cache.py:76: in test_changed_parameter_invalidates_memory_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+_____ test_changed_parameter_invalidates_disk_cache[overlap_fraction-0.5] _____
+tests\test_patch_cache.py:97: in test_changed_parameter_invalidates_disk_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+____ test_changed_parameter_invalidates_disk_cache[coarse_multiplier-3.0] _____
+tests\test_patch_cache.py:97: in test_changed_parameter_invalidates_disk_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+__ test_changed_parameter_invalidates_disk_cache[num_calibration_samples-32] __
+tests\test_patch_cache.py:97: in test_changed_parameter_invalidates_disk_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+_____ test_changed_parameter_invalidates_disk_cache[min_new_coverage-0.2] _____
+tests\test_patch_cache.py:97: in test_changed_parameter_invalidates_disk_cache
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+_______________________ test_legacy_disk_key_is_ignored _______________________
+tests\test_patch_cache.py:122: in test_legacy_disk_key_is_ignored
+    assert len(tiler_calls) == 1
+E   assert 0 == 1
+E    +  where 0 = len([])
+_________ test_numpy_float_does_not_collide_with_python_float[False] __________
+tests\test_patch_cache.py:157: in test_numpy_float_does_not_collide_with_python_float
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.9, ...}])
+__________ test_numpy_float_does_not_collide_with_python_float[True] __________
+tests\test_patch_cache.py:157: in test_numpy_float_does_not_collide_with_python_float
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.9, ...}])
+____________ test_resolution_mode_does_not_reuse_old_layout[False] ____________
+tests\test_patch_cache.py:171: in test_resolution_mode_does_not_reuse_old_layout
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+____________ test_resolution_mode_does_not_reuse_old_layout[True] _____________
+tests\test_patch_cache.py:171: in test_resolution_mode_does_not_reuse_old_layout
+    assert len(tiler_calls) == 2
+E   AssertionError: assert 1 == 2
+E    +  where 1 = len([{'target_size': (64, 64, 64), 'num_calibration_samples': 200, 'coarse_multiplier': 2.0, 'overlap_fraction': 0.25, ...}])
+=========================== short test summary info ===========================
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_memory_cache[target_size-value0]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_memory_cache[overlap_fraction-0.5]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_memory_cache[coarse_multiplier-3.0]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_memory_cache[num_calibration_samples-32]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_memory_cache[min_new_coverage-0.2]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_disk_cache[overlap_fraction-0.5]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_disk_cache[coarse_multiplier-3.0]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_disk_cache[num_calibration_samples-32]
+FAILED tests/test_patch_cache.py::test_changed_parameter_invalidates_disk_cache[min_new_coverage-0.2]
+FAILED tests/test_patch_cache.py::test_legacy_disk_key_is_ignored - assert 0 ...
+FAILED tests/test_patch_cache.py::test_numpy_float_does_not_collide_with_python_float[False]
+FAILED tests/test_patch_cache.py::test_numpy_float_does_not_collide_with_python_float[True]
+FAILED tests/test_patch_cache.py::test_resolution_mode_does_not_reuse_old_layout[False]
+FAILED tests/test_patch_cache.py::test_resolution_mode_does_not_reuse_old_layout[True]
+14 failed, 6 passed in 0.41s

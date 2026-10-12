@@ -1,0 +1,2612 @@
+{
+  "verified_date": "2026-10-12",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_revision": "25f3c93c65b492be3b90e402213a1ba6b5fd624c",
+  "checks": {
+    "candidate_all_match_fresh": true,
+    "candidate_same_request_cache_hits": true,
+    "upstream_defect_reproduced": true,
+    "fresh_oracle_outputs_identical": true,
+    "unchanged_first_request_outputs": true,
+    "source_data_unchanged": true
+  },
+  "verified_source_data": [
+    {
+      "mesh": "PHerc0139-w025-9.362um.tifxyz",
+      "file": "meta.json",
+      "sha256": "f5f367e36f64ea0bda614923c7b620ccc06f2045467a8ad13bd5a8198d08500a",
+      "bytes": 415
+    },
+    {
+      "mesh": "PHerc0139-w025-9.362um.tifxyz",
+      "file": "x.tif",
+      "sha256": "ff1f6aad64f3c29194f78b627aec196b534f4746d8cdae240aba9f8ae4fe36fe",
+      "bytes": 495174
+    },
+    {
+      "mesh": "PHerc0139-w025-9.362um.tifxyz",
+      "file": "y.tif",
+      "sha256": "a6850b1923ac23892bfc1e6da5f3aa55680d58e4f6662380564fbc4b5d64d370",
+      "bytes": 495174
+    },
+    {
+      "mesh": "PHerc0139-w025-9.362um.tifxyz",
+      "file": "z.tif",
+      "sha256": "f4b958977c488b6e163c528f43ad04d78328c6ba4fd0e6a6807336fcc9e61625",
+      "bytes": 495174
+    },
+    {
+      "mesh": "PHerc0800-auto-grown-8.64um.tifxyz",
+      "file": "meta.json",
+      "sha256": "fd8b3e2e2cd4241a58044af00bd802734159e4188d5613b8e5339483d7c63e61",
+      "bytes": 285
+    },
+    {
+      "mesh": "PHerc0800-auto-grown-8.64um.tifxyz",
+      "file": "x.tif",
+      "sha256": "519354f8910fd6f73d1a4d15060ca51de2bdc8f47cd2f8d9ef012fa99e83c579",
+      "bytes": 48518
+    },
+    {
+      "mesh": "PHerc0800-auto-grown-8.64um.tifxyz",
+      "file": "y.tif",
+      "sha256": "10a6b03d8bf501a317f98442ff338b6300e7434d2be6cb2f8bd442f078e8b458",
+      "bytes": 48518
+    },
+    {
+      "mesh": "PHerc0800-auto-grown-8.64um.tifxyz",
+      "file": "z.tif",
+      "sha256": "0a18c65f2beb0b010cf1ef647c09b62b9d302e3a6bcaac492c54e597b3ed4fbe",
+      "bytes": 48518
+    }
+  ],
+  "summary": [
+    {
+      "mesh": "PHerc0139",
+      "case": "memory_target",
+      "variant": "upstream",
+      "passed": 0,
+      "runs": 3,
+      "observed_count": 215,
+      "oracle_count": 104,
+      "unexpected_patches": 215,
+      "missing_patches": 104,
+      "changed_request_mean_seconds": 2.2999942302703857e-05,
+      "changed_request_median_seconds": 1.7099897377192974e-05,
+      "changed_request_min_seconds": 1.610000617802143e-05,
+      "changed_request_max_seconds": 3.579992335289717e-05
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "memory_target",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 104,
+      "oracle_count": 104,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.05260486664095273,
+      "changed_request_median_seconds": 0.051135199959389865,
+      "changed_request_min_seconds": 0.04992649995256215,
+      "changed_request_max_seconds": 0.05675290001090616
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "memory_overlap",
+      "variant": "upstream",
+      "passed": 0,
+      "runs": 3,
+      "observed_count": 62,
+      "oracle_count": 261,
+      "unexpected_patches": 4,
+      "missing_patches": 203,
+      "changed_request_mean_seconds": 3.7433307928343616e-05,
+      "changed_request_median_seconds": 2.289994154125452e-05,
+      "changed_request_min_seconds": 1.6700010746717453e-05,
+      "changed_request_max_seconds": 7.269997149705887e-05
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "memory_overlap",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 261,
+      "oracle_count": 261,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.10551906668115407,
+      "changed_request_median_seconds": 0.10501699999440461,
+      "changed_request_min_seconds": 0.09766930004116148,
+      "changed_request_max_seconds": 0.11387090000789613
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "disk_overlap",
+      "variant": "upstream",
+      "passed": 0,
+      "runs": 3,
+      "observed_count": 62,
+      "oracle_count": 261,
+      "unexpected_patches": 4,
+      "missing_patches": 203,
+      "changed_request_mean_seconds": 0.018558433318200212,
+      "changed_request_median_seconds": 0.019338599988259375,
+      "changed_request_min_seconds": 0.015228800009936094,
+      "changed_request_max_seconds": 0.021107899956405163
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "disk_overlap",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 261,
+      "oracle_count": 261,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.12649683332225928,
+      "changed_request_median_seconds": 0.12794359994586557,
+      "changed_request_min_seconds": 0.11948160000611097,
+      "changed_request_max_seconds": 0.13206530001480132
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "disk_target_control",
+      "variant": "upstream",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 104,
+      "oracle_count": 104,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.074986333376728,
+      "changed_request_median_seconds": 0.07350080006290227,
+      "changed_request_min_seconds": 0.07318279996979982,
+      "changed_request_max_seconds": 0.0782754000974819
+    },
+    {
+      "mesh": "PHerc0139",
+      "case": "disk_target_control",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 104,
+      "oracle_count": 104,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.08081110004180421,
+      "changed_request_median_seconds": 0.08463599998503923,
+      "changed_request_min_seconds": 0.07241540006361902,
+      "changed_request_max_seconds": 0.08538190007675439
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "memory_target",
+      "variant": "upstream",
+      "passed": 0,
+      "runs": 3,
+      "observed_count": 52,
+      "oracle_count": 4,
+      "unexpected_patches": 52,
+      "missing_patches": 4,
+      "changed_request_mean_seconds": 1.0866710605720678e-05,
+      "changed_request_median_seconds": 1.1100084520876408e-05,
+      "changed_request_min_seconds": 1.0200077667832375e-05,
+      "changed_request_max_seconds": 1.1299969628453255e-05
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "memory_target",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 4,
+      "oracle_count": 4,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.00732853333465755,
+      "changed_request_median_seconds": 0.007230699993669987,
+      "changed_request_min_seconds": 0.007115800050087273,
+      "changed_request_max_seconds": 0.00763909996021539
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "memory_overlap",
+      "variant": "upstream",
+      "passed": 0,
+      "runs": 3,
+      "observed_count": 6,
+      "oracle_count": 8,
+      "unexpected_patches": 0,
+      "missing_patches": 2,
+      "changed_request_mean_seconds": 1.6766639115909736e-05,
+      "changed_request_median_seconds": 1.9099912606179714e-05,
+      "changed_request_min_seconds": 1.0699965059757233e-05,
+      "changed_request_max_seconds": 2.050003968179226e-05
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "memory_overlap",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 8,
+      "oracle_count": 8,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.0075839333779489,
+      "changed_request_median_seconds": 0.007383799995295703,
+      "changed_request_min_seconds": 0.007191100041382015,
+      "changed_request_max_seconds": 0.008176900097168982
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "disk_overlap",
+      "variant": "upstream",
+      "passed": 0,
+      "runs": 3,
+      "observed_count": 6,
+      "oracle_count": 8,
+      "unexpected_patches": 0,
+      "missing_patches": 2,
+      "changed_request_mean_seconds": 0.004799966622764866,
+      "changed_request_median_seconds": 0.0014688000082969666,
+      "changed_request_min_seconds": 0.001182299922220409,
+      "changed_request_max_seconds": 0.011748799937777221
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "disk_overlap",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 8,
+      "oracle_count": 8,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.012645633347953359,
+      "changed_request_median_seconds": 0.01170899998396635,
+      "changed_request_min_seconds": 0.010296900058165193,
+      "changed_request_max_seconds": 0.015931000001728535
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "disk_target_control",
+      "variant": "upstream",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 4,
+      "oracle_count": 4,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.024131366633810103,
+      "changed_request_median_seconds": 0.02710129995830357,
+      "changed_request_min_seconds": 0.017028399975970387,
+      "changed_request_max_seconds": 0.02826439996715635
+    },
+    {
+      "mesh": "PHerc0800",
+      "case": "disk_target_control",
+      "variant": "candidate",
+      "passed": 3,
+      "runs": 3,
+      "observed_count": 4,
+      "oracle_count": 4,
+      "unexpected_patches": 0,
+      "missing_patches": 0,
+      "changed_request_mean_seconds": 0.02568586663498233,
+      "changed_request_median_seconds": 0.025422299979254603,
+      "changed_request_min_seconds": 0.02460339991375804,
+      "changed_request_max_seconds": 0.02703190001193434
+    }
+  ],
+  "workers": [
+    {
+      "variant": "upstream",
+      "repetition": 0,
+      "warmup_seconds": 2.276824100059457,
+      "peak_process_rss_bytes": 182231040,
+      "rows": [
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_target",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 215,
+          "oracle_count": 104,
+          "exact_match": false,
+          "observed_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 215,
+          "missing_patches": 104,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.028052199981175363,
+          "changed_request_seconds": 3.579992335289717e-05,
+          "oracle_seconds": 0.051843399996869266,
+          "same_request_hit_seconds": 1.8200022168457508e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_overlap",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 62,
+          "oracle_count": 261,
+          "exact_match": false,
+          "observed_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 4,
+          "missing_patches": 203,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.033530800021253526,
+          "changed_request_seconds": 1.6700010746717453e-05,
+          "oracle_seconds": 0.10455639997962862,
+          "same_request_hit_seconds": 2.119992859661579e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_overlap",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 62,
+          "oracle_count": 261,
+          "exact_match": false,
+          "observed_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 4,
+          "missing_patches": 203,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.034817200037650764,
+          "changed_request_seconds": 0.015228800009936094,
+          "oracle_seconds": 0.10161919996608049,
+          "same_request_hit_seconds": 2.5999965146183968e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_target_control",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.031932199955917895,
+          "changed_request_seconds": 0.07318279996979982,
+          "oracle_seconds": 0.05661610001698136,
+          "same_request_hit_seconds": 2.1400046534836292e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_target",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 52,
+          "oracle_count": 4,
+          "exact_match": false,
+          "observed_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 52,
+          "missing_patches": 4,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.005537400022149086,
+          "changed_request_seconds": 1.0200077667832375e-05,
+          "oracle_seconds": 0.00720360002014786,
+          "same_request_hit_seconds": 1.2199976481497288e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_overlap",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 6,
+          "oracle_count": 8,
+          "exact_match": false,
+          "observed_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 2,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.00841270003002137,
+          "changed_request_seconds": 1.9099912606179714e-05,
+          "oracle_seconds": 0.008162499987520278,
+          "same_request_hit_seconds": 1.680001150816679e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_overlap",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 6,
+          "oracle_count": 8,
+          "exact_match": false,
+          "observed_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 2,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.009101100033149123,
+          "changed_request_seconds": 0.011748799937777221,
+          "oracle_seconds": 0.0074423000914976,
+          "same_request_hit_seconds": 1.1500087566673756e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_target_control",
+          "variant": "upstream",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.008255699998699129,
+          "changed_request_seconds": 0.017028399975970387,
+          "oracle_seconds": 0.008032200043089688,
+          "same_request_hit_seconds": 1.3500102795660496e-05
+        }
+      ]
+    },
+    {
+      "variant": "candidate",
+      "repetition": 0,
+      "warmup_seconds": 2.2607325999997556,
+      "peak_process_rss_bytes": 181035008,
+      "rows": [
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_target",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.0250569999916479,
+          "changed_request_seconds": 0.05675290001090616,
+          "oracle_seconds": 0.057154899928718805,
+          "same_request_hit_seconds": 2.1300045773386955e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_overlap",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 261,
+          "oracle_count": 261,
+          "exact_match": true,
+          "observed_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.038503300049342215,
+          "changed_request_seconds": 0.11387090000789613,
+          "oracle_seconds": 0.10689960001036525,
+          "same_request_hit_seconds": 2.9199989512562752e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_overlap",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 261,
+          "oracle_count": 261,
+          "exact_match": true,
+          "observed_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.03788319998420775,
+          "changed_request_seconds": 0.12794359994586557,
+          "oracle_seconds": 0.10279369994532317,
+          "same_request_hit_seconds": 2.7999980375170708e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_target_control",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.029649200034327805,
+          "changed_request_seconds": 0.08538190007675439,
+          "oracle_seconds": 0.053267400013282895,
+          "same_request_hit_seconds": 2.3099943064153194e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_target",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.005511500057764351,
+          "changed_request_seconds": 0.007230699993669987,
+          "oracle_seconds": 0.007492700009606779,
+          "same_request_hit_seconds": 1.5700003132224083e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_overlap",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 8,
+          "oracle_count": 8,
+          "exact_match": true,
+          "observed_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.006329600000753999,
+          "changed_request_seconds": 0.007191100041382015,
+          "oracle_seconds": 0.00785549997817725,
+          "same_request_hit_seconds": 1.6200006939470768e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_overlap",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 8,
+          "oracle_count": 8,
+          "exact_match": true,
+          "observed_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.008383500040508807,
+          "changed_request_seconds": 0.015931000001728535,
+          "oracle_seconds": 0.007359800045378506,
+          "same_request_hit_seconds": 1.3399985618889332e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_target_control",
+          "variant": "candidate",
+          "repetition": 0,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.006631499971263111,
+          "changed_request_seconds": 0.025422299979254603,
+          "oracle_seconds": 0.007040300057269633,
+          "same_request_hit_seconds": 2.0099920220673084e-05
+        }
+      ]
+    },
+    {
+      "variant": "candidate",
+      "repetition": 1,
+      "warmup_seconds": 2.1893601999618113,
+      "peak_process_rss_bytes": 181919744,
+      "rows": [
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_target",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.024601000011898577,
+          "changed_request_seconds": 0.051135199959389865,
+          "oracle_seconds": 0.04940989997703582,
+          "same_request_hit_seconds": 2.4999957531690598e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_overlap",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 261,
+          "oracle_count": 261,
+          "exact_match": true,
+          "observed_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.03257889999076724,
+          "changed_request_seconds": 0.10501699999440461,
+          "oracle_seconds": 0.09805140004027635,
+          "same_request_hit_seconds": 2.5099958293139935e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_overlap",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 261,
+          "oracle_count": 261,
+          "exact_match": true,
+          "observed_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.03614400001242757,
+          "changed_request_seconds": 0.13206530001480132,
+          "oracle_seconds": 0.10021419997792691,
+          "same_request_hit_seconds": 2.829998265951872e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_target_control",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.0330489999614656,
+          "changed_request_seconds": 0.08463599998503923,
+          "oracle_seconds": 0.055134100024588406,
+          "same_request_hit_seconds": 2.2300053387880325e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_target",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.005766100017353892,
+          "changed_request_seconds": 0.00763909996021539,
+          "oracle_seconds": 0.00765689997933805,
+          "same_request_hit_seconds": 1.479999627918005e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_overlap",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 8,
+          "oracle_count": 8,
+          "exact_match": true,
+          "observed_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.007321399985812604,
+          "changed_request_seconds": 0.008176900097168982,
+          "oracle_seconds": 0.00756230007391423,
+          "same_request_hit_seconds": 2.4400069378316402e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_overlap",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 8,
+          "oracle_count": 8,
+          "exact_match": true,
+          "observed_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.007829500013031065,
+          "changed_request_seconds": 0.010296900058165193,
+          "oracle_seconds": 0.007958499947562814,
+          "same_request_hit_seconds": 2.0600040443241596e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_target_control",
+          "variant": "candidate",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.0072731999680399895,
+          "changed_request_seconds": 0.02703190001193434,
+          "oracle_seconds": 0.008155000046826899,
+          "same_request_hit_seconds": 2.5900080800056458e-05
+        }
+      ]
+    },
+    {
+      "variant": "upstream",
+      "repetition": 1,
+      "warmup_seconds": 2.0891133999684826,
+      "peak_process_rss_bytes": 181874688,
+      "rows": [
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_target",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 215,
+          "oracle_count": 104,
+          "exact_match": false,
+          "observed_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 215,
+          "missing_patches": 104,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.02464519999921322,
+          "changed_request_seconds": 1.610000617802143e-05,
+          "oracle_seconds": 0.051407599938102067,
+          "same_request_hit_seconds": 1.780001912266016e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_overlap",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 62,
+          "oracle_count": 261,
+          "exact_match": false,
+          "observed_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 4,
+          "missing_patches": 203,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.03463520004879683,
+          "changed_request_seconds": 2.289994154125452e-05,
+          "oracle_seconds": 0.09642860002350062,
+          "same_request_hit_seconds": 2.0300038158893585e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_overlap",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 62,
+          "oracle_count": 261,
+          "exact_match": false,
+          "observed_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 4,
+          "missing_patches": 203,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.036312000011093915,
+          "changed_request_seconds": 0.021107899956405163,
+          "oracle_seconds": 0.09893919993191957,
+          "same_request_hit_seconds": 2.1400046534836292e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_target_control",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.0291404000017792,
+          "changed_request_seconds": 0.0782754000974819,
+          "oracle_seconds": 0.053033700096420944,
+          "same_request_hit_seconds": 2.1900050342082977e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_target",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 52,
+          "oracle_count": 4,
+          "exact_match": false,
+          "observed_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 52,
+          "missing_patches": 4,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.005830000038258731,
+          "changed_request_seconds": 1.1100084520876408e-05,
+          "oracle_seconds": 0.007035600021481514,
+          "same_request_hit_seconds": 1.1499971151351929e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_overlap",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 6,
+          "oracle_count": 8,
+          "exact_match": false,
+          "observed_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 2,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.007304100086912513,
+          "changed_request_seconds": 1.0699965059757233e-05,
+          "oracle_seconds": 0.008304700022563338,
+          "same_request_hit_seconds": 1.1900090612471104e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_overlap",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 6,
+          "oracle_count": 8,
+          "exact_match": false,
+          "observed_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 2,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.008717100019566715,
+          "changed_request_seconds": 0.0014688000082969666,
+          "oracle_seconds": 0.011687999940477312,
+          "same_request_hit_seconds": 1.8300022929906845e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_target_control",
+          "variant": "upstream",
+          "repetition": 1,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.007160099921748042,
+          "changed_request_seconds": 0.02826439996715635,
+          "oracle_seconds": 0.008645899943076074,
+          "same_request_hit_seconds": 1.4099990949034691e-05
+        }
+      ]
+    },
+    {
+      "variant": "upstream",
+      "repetition": 2,
+      "warmup_seconds": 2.11292039998807,
+      "peak_process_rss_bytes": 181825536,
+      "rows": [
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_target",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 215,
+          "oracle_count": 104,
+          "exact_match": false,
+          "observed_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 215,
+          "missing_patches": 104,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.02341220004018396,
+          "changed_request_seconds": 1.7099897377192974e-05,
+          "oracle_seconds": 0.05290619994048029,
+          "same_request_hit_seconds": 2.0400038920342922e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_overlap",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 62,
+          "oracle_count": 261,
+          "exact_match": false,
+          "observed_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 4,
+          "missing_patches": 203,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.03790549992118031,
+          "changed_request_seconds": 7.269997149705887e-05,
+          "oracle_seconds": 0.09506549988873303,
+          "same_request_hit_seconds": 2.1200045011937618e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_overlap",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 62,
+          "oracle_count": 261,
+          "exact_match": false,
+          "observed_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 4,
+          "missing_patches": 203,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.03431879996787757,
+          "changed_request_seconds": 0.019338599988259375,
+          "oracle_seconds": 0.09585809998679906,
+          "same_request_hit_seconds": 2.2000051103532314e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_target_control",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.028201799956150353,
+          "changed_request_seconds": 0.07350080006290227,
+          "oracle_seconds": 0.05605490005109459,
+          "same_request_hit_seconds": 2.0600040443241596e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_target",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 52,
+          "oracle_count": 4,
+          "exact_match": false,
+          "observed_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 52,
+          "missing_patches": 4,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.005642200005240738,
+          "changed_request_seconds": 1.1299969628453255e-05,
+          "oracle_seconds": 0.00705979997292161,
+          "same_request_hit_seconds": 1.3899989426136017e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_overlap",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 6,
+          "oracle_count": 8,
+          "exact_match": false,
+          "observed_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 2,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.007185599999502301,
+          "changed_request_seconds": 2.050003968179226e-05,
+          "oracle_seconds": 0.007262500002980232,
+          "same_request_hit_seconds": 1.3599987141788006e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_overlap",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 6,
+          "oracle_count": 8,
+          "exact_match": false,
+          "observed_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 2,
+          "repeat_same_object": true,
+          "repeat_exact_match": false,
+          "initial_seconds": 0.008058999897912145,
+          "changed_request_seconds": 0.001182299922220409,
+          "oracle_seconds": 0.007773000048473477,
+          "same_request_hit_seconds": 1.3299984857439995e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_target_control",
+          "variant": "upstream",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.007529100053943694,
+          "changed_request_seconds": 0.02710129995830357,
+          "oracle_seconds": 0.00904540007468313,
+          "same_request_hit_seconds": 1.6200006939470768e-05
+        }
+      ]
+    },
+    {
+      "variant": "candidate",
+      "repetition": 2,
+      "warmup_seconds": 2.118126800050959,
+      "peak_process_rss_bytes": 181391360,
+      "rows": [
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_target",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.023593700025230646,
+          "changed_request_seconds": 0.04992649995256215,
+          "oracle_seconds": 0.05337360000703484,
+          "same_request_hit_seconds": 2.559996210038662e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "memory_overlap",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 261,
+          "oracle_count": 261,
+          "exact_match": true,
+          "observed_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.032809199998155236,
+          "changed_request_seconds": 0.09766930004116148,
+          "oracle_seconds": 0.10030439996626228,
+          "same_request_hit_seconds": 2.7099973522126675e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_overlap",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 62,
+          "initial_sha256": "39409cba1f308456f405b5deaef428d107f3c62badece96f298978fec729f683",
+          "observed_count": 261,
+          "oracle_count": 261,
+          "exact_match": true,
+          "observed_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "oracle_sha256": "634924a1394bf99bcac60747968c0803c9b03856ddb819089280fe555e9f65d8",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.035044699907302856,
+          "changed_request_seconds": 0.11948160000611097,
+          "oracle_seconds": 0.10298910003621131,
+          "same_request_hit_seconds": 2.610008232295513e-05
+        },
+        {
+          "mesh": "PHerc0139",
+          "case": "disk_target_control",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "requested": {
+            "target_size": [
+              256,
+              256,
+              256
+            ]
+          },
+          "geometry": {
+            "shape": [
+              364,
+              340
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "valid_vertices": 102285
+          },
+          "initial_count": 215,
+          "initial_sha256": "db67636e2071c0df4c9786196ef7cc7b3fa1b063dbb9ad986c919bdbedbde88f",
+          "observed_count": 104,
+          "oracle_count": 104,
+          "exact_match": true,
+          "observed_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "oracle_sha256": "ecd4bd78b667090f2c9625e6fb305a49c9341037e1d4ae408981f45c091a63f6",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.02913579996675253,
+          "changed_request_seconds": 0.07241540006361902,
+          "oracle_seconds": 0.05311690003145486,
+          "same_request_hit_seconds": 2.41999514400959e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_target",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.005675800028257072,
+          "changed_request_seconds": 0.007115800050087273,
+          "oracle_seconds": 0.00735319999512285,
+          "same_request_hit_seconds": 1.4599994756281376e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "memory_overlap",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 8,
+          "oracle_count": 8,
+          "exact_match": true,
+          "observed_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.00719459995161742,
+          "changed_request_seconds": 0.007383799995295703,
+          "oracle_seconds": 0.0076524000614881516,
+          "same_request_hit_seconds": 2.750009298324585e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_overlap",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.0
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ],
+            "overlap_fraction": 0.5
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 6,
+          "initial_sha256": "6964dc70617d58b3bdec99266db68325046f5e32a8e610531741c38ca476be0f",
+          "observed_count": 8,
+          "oracle_count": 8,
+          "exact_match": true,
+          "observed_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "oracle_sha256": "a378c4ab00a967626db42b191d921c5bf463311392540a4e8d9764b470729155",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.00829679996240884,
+          "changed_request_seconds": 0.01170899998396635,
+          "oracle_seconds": 0.008806099998764694,
+          "same_request_hit_seconds": 1.8300022929906845e-05
+        },
+        {
+          "mesh": "PHerc0800",
+          "case": "disk_target_control",
+          "variant": "candidate",
+          "repetition": 2,
+          "initial": {
+            "target_size": [
+              64,
+              64,
+              64
+            ]
+          },
+          "requested": {
+            "target_size": [
+              128,
+              128,
+              128
+            ]
+          },
+          "geometry": {
+            "shape": [
+              108,
+              112
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "valid_vertices": 5998
+          },
+          "initial_count": 52,
+          "initial_sha256": "d6ed10c817d2f39dce320cd7edb0facbfcdff20dedac92ac19177b20be9bf638",
+          "observed_count": 4,
+          "oracle_count": 4,
+          "exact_match": true,
+          "observed_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "oracle_sha256": "d6d9fc2cd185234209bad0a6637bed8d03d367ea017d861123bb4a6a48c74645",
+          "unexpected_patches": 0,
+          "missing_patches": 0,
+          "repeat_same_object": true,
+          "repeat_exact_match": true,
+          "initial_seconds": 0.007025200058706105,
+          "changed_request_seconds": 0.02460339991375804,
+          "oracle_seconds": 0.008187800063751638,
+          "same_request_hit_seconds": 1.750001683831215e-05
+        }
+      ]
+    }
+  ]
+}

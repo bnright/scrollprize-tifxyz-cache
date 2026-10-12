@@ -1,0 +1,36 @@
+{
+  "verified_date": "2026-10-12",
+  "scroll": "PHerc0800",
+  "segment": "20251028213516-auto_grown_20251028213516907",
+  "original_mesh": "20251028213516-on-20250521135224-8.64um.tifxyz",
+  "scan": "20250521135224-8.64um",
+  "license_url": "https://dl.ash2txt.org/LICENSE.txt",
+  "official_data_page": "https://scrollprize.org/data",
+  "redistribution": "Private local research copy. Fetch script/public manifest rather than redistribute coordinates.",
+  "files": [
+    {
+      "file": "meta.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/meta.json",
+      "bytes": 285,
+      "sha256": "fd8b3e2e2cd4241a58044af00bd802734159e4188d5613b8e5339483d7c63e61"
+    },
+    {
+      "file": "x.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/x.tif",
+      "bytes": 48518,
+      "sha256": "519354f8910fd6f73d1a4d15060ca51de2bdc8f47cd2f8d9ef012fa99e83c579"
+    },
+    {
+      "file": "y.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/y.tif",
+      "bytes": 48518,
+      "sha256": "10a6b03d8bf501a317f98442ff338b6300e7434d2be6cb2f8bd442f078e8b458"
+    },
+    {
+      "file": "z.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/z.tif",
+      "bytes": 48518,
+      "sha256": "0a18c65f2beb0b010cf1ef647c09b62b9d302e3a6bcaac492c54e597b3ed4fbe"
+    }
+  ]
+}

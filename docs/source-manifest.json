@@ -1,0 +1,163 @@
+{
+  "snapshot": "Focused tifxyz source and tests, plus required shared canvas type",
+  "verified_date": "2026-10-12",
+  "files": [
+    {
+      "sha256": "4a4b237c93cc9ee1ace97444e4344ffcf83775ba69aa25eeda50034fc5092e27",
+      "file": "AGENTS.md",
+      "bytes": 10714,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/AGENTS.md",
+      "git_blob_sha1": "5df9bed5b0a64cd3a99731b25b87414999a787f0"
+    },
+    {
+      "sha256": "6d31ec21459b591ca90680999222af87450a48e1eca5426a8ec1cc281ce3400b",
+      "file": "CONTRIBUTING.md",
+      "bytes": 5210,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/CONTRIBUTING.md",
+      "git_blob_sha1": "32e75f7a8f507d7542922efdddaf2c20e9380bca"
+    },
+    {
+      "sha256": "87070eec603117b5365e2172999e81b08890aef91c1673383cf9779ee9c89976",
+      "file": "LICENSE",
+      "bytes": 1075,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/LICENSE",
+      "git_blob_sha1": "f8512279210f3ba1acc3101a4a1e80eaf79aa4cc"
+    },
+    {
+      "sha256": "01a251d72816f4a6097771b4e4cbb59bdc69c09309066dbe148fc65d35392e09",
+      "file": "SCROLL_ANATOMY.md",
+      "bytes": 19572,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/SCROLL_ANATOMY.md",
+      "git_blob_sha1": "c1a0b234015a04b6fe5043ce39a193942c90354d"
+    },
+    {
+      "sha256": "9bd1ea4d3e87e02dac0ad14de7ddb99851de46781cd7a03356f852969dfe453c",
+      "file": ".github/pull_request_template.md",
+      "bytes": 744,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/.github/pull_request_template.md",
+      "git_blob_sha1": "4066e4b34e414edf25da903e07995243be13a020"
+    },
+    {
+      "sha256": "bfa89ed9441d6edc101a750050e7becdb7bb0b6bb059cf338867a0f744e42810",
+      "file": "vesuvius/pyproject.toml",
+      "bytes": 7436,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/pyproject.toml",
+      "git_blob_sha1": "8675cb62290662666806eb9722fa14fdcde1be62"
+    },
+    {
+      "sha256": "8f99a14c69214bd4f7dac413184a79e17dd15673c856c9b0d4f2797bc38173b2",
+      "file": "vesuvius/README.md",
+      "bytes": 11994,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/README.md",
+      "git_blob_sha1": "b5963d3d7ee79f10851f24535b4fc05a6832eba9"
+    },
+    {
+      "sha256": "021f4346383d640c9824b1f1c6bf11025c0ce14493e2e1831a2b05908b62c8fa",
+      "file": "vesuvius/src/vesuvius/__init__.py",
+      "bytes": 1607,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/__init__.py",
+      "git_blob_sha1": "920471382edb6daee988888ca18d6dd34423d87a"
+    },
+    {
+      "sha256": "4a2f0e9440699dda2c01bdd293429623206dccca0f296fffdb885ad875350b49",
+      "file": "vesuvius/src/vesuvius/tifxyz_canvas.py",
+      "bytes": 1712,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz_canvas.py",
+      "git_blob_sha1": "2e1fef4d02d0745657be57bcd29460c46777e277"
+    },
+    {
+      "sha256": "930bdf8550f51b47ebca3dbd4cd71512598d817161fbc51f43eb845a92e35c71",
+      "file": "vesuvius/src/vesuvius/tifxyz/__init__.py",
+      "bytes": 1654,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/__init__.py",
+      "git_blob_sha1": "d09b3cf7d418cf0735b742a160081dfa8b0c69d0"
+    },
+    {
+      "sha256": "75ae7c90593b6a40320f051f85a7e1349aaa0b250a8c5639721c2c7bccb6d30c",
+      "file": "vesuvius/src/vesuvius/tifxyz/API.md",
+      "bytes": 15411,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/API.md",
+      "git_blob_sha1": "86a43ea51be15f4b79271f7538e30f7d97dfd968"
+    },
+    {
+      "sha256": "16be25d6426ca1359bcdb550bc2bccec7f0c15eac1c8c216f510b8924f0dd4ee",
+      "file": "vesuvius/src/vesuvius/tifxyz/hierarchical_tiling.py",
+      "bytes": 42952,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/hierarchical_tiling.py",
+      "git_blob_sha1": "753b5de6c003dcdfbc2eb62c4782699309e6b5f0"
+    },
+    {
+      "sha256": "46ee4e351238a51b4a2b1527121ab4084cb0e18387b362d921fb661b30ca6413",
+      "file": "vesuvius/src/vesuvius/tifxyz/reader.py",
+      "bytes": 26249,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/reader.py",
+      "git_blob_sha1": "6a477f38e67f9fd60cf7895de78e5dccda112bb2"
+    },
+    {
+      "sha256": "d0707af6112487cf7a815c0973709f592cfeb7e48a52f988136c88c92cc1f8ef",
+      "file": "vesuvius/src/vesuvius/tifxyz/test_labels.py",
+      "bytes": 7046,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/test_labels.py",
+      "git_blob_sha1": "1e5fc717eeda00eacd144c85f58a34750d4ad6d8"
+    },
+    {
+      "sha256": "75fab21dde35c0dab0b1b18dc114cc5ea66443f7eb2bfb8841bfc51e07bd2518",
+      "file": "vesuvius/src/vesuvius/tifxyz/test_reader_bbox.py",
+      "bytes": 6115,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/test_reader_bbox.py",
+      "git_blob_sha1": "09e23ef0ea5045f052ac800d9178f2a75475b960"
+    },
+    {
+      "sha256": "af26087b7bade7cb593c4a378cfab841dac1d4a521712be0612e526444f30826",
+      "file": "vesuvius/src/vesuvius/tifxyz/types.py",
+      "bytes": 44225,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/types.py",
+      "git_blob_sha1": "b7c9628f4d2a685629108a578163530f46034b93"
+    },
+    {
+      "sha256": "04e779f6d531140e588744af27a610b2db9aa3bd63f7a2351a501eaf39106ab0",
+      "file": "vesuvius/src/vesuvius/tifxyz/upsampling.py",
+      "bytes": 19537,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/upsampling.py",
+      "git_blob_sha1": "1fc6167d7ff5bc5f056c6b47b87c5eba9f4331f8"
+    },
+    {
+      "sha256": "da5db68e6efea7c6002c0177e87daaa55d45205a3a5fa52aca8eb888c7b9f618",
+      "file": "vesuvius/src/vesuvius/tifxyz/writer.py",
+      "bytes": 9363,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz/writer.py",
+      "git_blob_sha1": "811110e95fec1e5aceedb614fe90a0dc7f9f4832"
+    },
+    {
+      "sha256": "5ccacdae9e44136c1bd28ed54bd59bc7ec8d038a77dac7eac17637ead80c31f0",
+      "file": "vesuvius/src/vesuvius/tifxyz_label_transfer/__init__.py",
+      "bytes": 62,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz_label_transfer/__init__.py",
+      "git_blob_sha1": "1063a69c7bb02b97b3676dbdb99c5181ef1bc161"
+    },
+    {
+      "sha256": "6722494e1198dde367c8dd4d986efc05b18d5204c09741304abdeaa7210fae5d",
+      "file": "vesuvius/src/vesuvius/tifxyz_label_transfer/core.py",
+      "bytes": 78634,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/src/vesuvius/tifxyz_label_transfer/core.py",
+      "git_blob_sha1": "29418d5da0b06105623a1fc2c2fe1953f2881164"
+    },
+    {
+      "sha256": "75396d81b73e1679d55496a077d2bc6ef4c334f1db2d965ee132f8d8c3284295",
+      "file": "vesuvius/tests/tifxyz/test_full_resolution_shape.py",
+      "bytes": 5540,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/tests/tifxyz/test_full_resolution_shape.py",
+      "git_blob_sha1": "8b1dc6249ec6f95d0cb3413a37084eaba3ea0c13"
+    },
+    {
+      "sha256": "b39f16fc76149a6a18006fa4a9cfa894f8e958e05c5a911a9f5dd24650c69eee",
+      "file": "vesuvius/tests/tifxyz/test_interpolate_at_points.py",
+      "bytes": 3284,
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/25f3c93c65b492be3b90e402213a1ba6b5fd624c/vesuvius/tests/tifxyz/test_interpolate_at_points.py",
+      "git_blob_sha1": "b87201c78462c823ff8c0bcb13308d81bee4df7a"
+    }
+  ],
+  "repository": "https://github.com/ScrollPrize/villa",
+  "revision": "25f3c93c65b492be3b90e402213a1ba6b5fd624c",
+  "verification": "All entries match official pinned repository Git-tree blob IDs; generated metadata excluded."
+}

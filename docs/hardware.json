@@ -1,0 +1,23 @@
+{
+  "disk_free_now_bytes": 2217218048,
+  "cpu": {
+    "Name": "Intel(R) Core(TM) Ultra 9 185H",
+    "NumberOfCores": 16,
+    "NumberOfLogicalProcessors": 22
+  },
+  "purchased_compute_cost_usd": 0,
+  "disk_free_before_bytes": 2972225536,
+  "verified_date": "2026-10-12",
+  "experiment_device": "CPU only; no GPU kernels or model checkpoints",
+  "gpu": [
+    {
+      "Name": "Intel(R) Arc(TM) Graphics",
+      "AdapterRAM": 2147479552
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "AdapterRAM": 4293918720
+    }
+  ],
+  "ram_bytes": 33777467392
+}

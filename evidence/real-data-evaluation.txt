@@ -1,0 +1,14 @@
+upstream repetition 0: PHerc0139/memory_target=FAIL, PHerc0139/memory_overlap=FAIL, PHerc0139/disk_overlap=FAIL, PHerc0139/disk_target_control=PASS, PHerc0800/memory_target=FAIL, PHerc0800/memory_overlap=FAIL, PHerc0800/disk_overlap=FAIL, PHerc0800/disk_target_control=PASS
+candidate repetition 0: PHerc0139/memory_target=PASS, PHerc0139/memory_overlap=PASS, PHerc0139/disk_overlap=PASS, PHerc0139/disk_target_control=PASS, PHerc0800/memory_target=PASS, PHerc0800/memory_overlap=PASS, PHerc0800/disk_overlap=PASS, PHerc0800/disk_target_control=PASS
+candidate repetition 1: PHerc0139/memory_target=PASS, PHerc0139/memory_overlap=PASS, PHerc0139/disk_overlap=PASS, PHerc0139/disk_target_control=PASS, PHerc0800/memory_target=PASS, PHerc0800/memory_overlap=PASS, PHerc0800/disk_overlap=PASS, PHerc0800/disk_target_control=PASS
+upstream repetition 1: PHerc0139/memory_target=FAIL, PHerc0139/memory_overlap=FAIL, PHerc0139/disk_overlap=FAIL, PHerc0139/disk_target_control=PASS, PHerc0800/memory_target=FAIL, PHerc0800/memory_overlap=FAIL, PHerc0800/disk_overlap=FAIL, PHerc0800/disk_target_control=PASS
+upstream repetition 2: PHerc0139/memory_target=FAIL, PHerc0139/memory_overlap=FAIL, PHerc0139/disk_overlap=FAIL, PHerc0139/disk_target_control=PASS, PHerc0800/memory_target=FAIL, PHerc0800/memory_overlap=FAIL, PHerc0800/disk_overlap=FAIL, PHerc0800/disk_target_control=PASS
+candidate repetition 2: PHerc0139/memory_target=PASS, PHerc0139/memory_overlap=PASS, PHerc0139/disk_overlap=PASS, PHerc0139/disk_target_control=PASS, PHerc0800/memory_target=PASS, PHerc0800/memory_overlap=PASS, PHerc0800/disk_overlap=PASS, PHerc0800/disk_target_control=PASS
+{
+  "candidate_all_match_fresh": true,
+  "candidate_same_request_cache_hits": true,
+  "upstream_defect_reproduced": true,
+  "fresh_oracle_outputs_identical": true,
+  "unchanged_first_request_outputs": true,
+  "source_data_unchanged": true
+}

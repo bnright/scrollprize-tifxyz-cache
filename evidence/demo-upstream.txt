@@ -1,0 +1,13 @@
+Source: ScrollPrize/villa 25f3c93; variant: upstream
+Input: original PHerc0139 w025 mesh, scan 20250728140407, 9.362 um
+First request 128^3: 215 patches
+Changed request 256^3: 215 patches
+Fresh reference 256^3: 104 patches
+Traceback (most recent call last):
+  File "C:\Users\right\Documents\ChatGPT\AI Challenges\scrollprize-entry\scripts\demo.py", line 31, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\right\Documents\ChatGPT\AI Challenges\scrollprize-entry\scripts\demo.py", line 26, in main
+    assert changed == expected, "STALE CACHE: changed request does not match fresh tiling"
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: STALE CACHE: changed request does not match fresh tiling
