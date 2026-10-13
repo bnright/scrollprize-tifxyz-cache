@@ -6,11 +6,11 @@ Prepared **2026-10-12**. Official destination: [October 2026 Progress Prize form
 
 | Official field | Draft value |
 |---|---|
-| Email | **MISSING — user must supply.** |
-| Your full name | **MISSING — user must supply.** |
+| Email | Supplied privately; omitted from public source. |
+| Your full name | Supplied privately; omitted from public source. |
 | Team description | Proposed individual entry; **user must confirm actual entrant/team membership.** |
 | Optional Discord identifier | Unknown; leave blank unless the user supplies their real display name. |
-| Public contribution URL(s) | **MISSING — requires approved publication and an actual accessible repository/PR URL.** |
+| Public contribution URL(s) | https://github.com/bnright/scrollprize-tifxyz-cache; reviewed package: https://github.com/bnright/scrollprize-tifxyz-cache/releases/tag/v0.1.0 |
 | Contribution narrative | Text below, with evidence links updated to public URLs after approved publication. |
 | Terms checkbox | **Unchecked — user must review and authorize agreement/submission.** |
 
@@ -24,8 +24,8 @@ Evaluation uses two unchanged publicly released surfaces: **PHerc0139**, segment
 
 Four request scenarios per surface cover memory target changes, memory overlap changes, disk overlap changes and disk target-change controls. Each runs in three fresh-process repetitions. The candidate matches ordered 2D/3D bounds from forced recomputation in **24/24 replays**, versus **6/24** for upstream; all six upstream passes are the disk-size controls. For example, PHerc0139's 128-to-256 context request returns 215 stale patches upstream; the fresh result and candidate contain 104. An overlap change from 0 to 0.5 returns 62 stale patches upstream versus 261 fresh patches. Initial uncached outputs match before/after, repeat requests hit the cache, and original coordinate hashes remain unchanged.
 
-[Evaluation JSON](../results/evaluation.json) and [replay log](../evidence/real-data-evaluation.txt) provide commands, settings, counts and exact-output hashes. **75 relevant tests pass**, including 20 cache checks; unchanged upstream fails 14 of those 20 cache checks. The [patch](../upstream-fix.patch) and reproduction scripts make the result reviewable.
+[Evaluation JSON](https://github.com/bnright/scrollprize-tifxyz-cache/blob/a8df8fd3f933dccdb899a2cce6cb5587a2371e7b/results/evaluation.json) and [replay log](https://github.com/bnright/scrollprize-tifxyz-cache/blob/a8df8fd3f933dccdb899a2cce6cb5587a2371e7b/evidence/real-data-evaluation.txt) provide commands, settings, counts and exact-output hashes. **75 relevant tests pass**, including 20 cache checks; unchanged upstream fails 14 of those 20 cache checks. The [patch](https://github.com/bnright/scrollprize-tifxyz-cache/blob/a8df8fd3f933dccdb899a2cce6cb5587a2371e7b/upstream-fix.patch) and reproduction scripts make the result reviewable.
 
 This enables correct repeated exploration of patch contexts and coverage settings while retaining caching. Evidence establishes this bounded correctness improvement; adoption, downstream ink-reading gains and new text discoveries have not been measured. Three repetitions test reproducibility, not 24 independent datasets. Remaining cache limitations include geometry/mask mutation, concurrent writes and malformed cache data.
 
-**AI disclosure:** Codex assisted research, implementation, tests, evaluation and drafting. Human entrant identity, personal code/evidence review and genuinely human-written upstream relevance commentary remain pending. Generic software and nontextual evidence are prepared for publication; source dataset files remain excluded. Award eligibility and significance remain subject to organizer review.
+**AI disclosure:** Codex assisted research, implementation, tests, evaluation and drafting. Human entrant identity was supplied privately. Personal code/evidence review and genuinely human-written upstream relevance commentary remain pending. Generic software and nontextual evidence have been published with approval; source dataset files remain excluded. Award eligibility and significance remain subject to organizer review.

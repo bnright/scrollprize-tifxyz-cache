@@ -2,8 +2,9 @@
 
 A focused, AI-assisted ScrollPrize Progress Prize contribution: fix stale patch
 layouts when a researcher changes model context size or tiling settings on a real
-scroll surface. This is an upstream patch and evidence package, prepared locally
-for review. Nothing has been published or submitted.
+scroll surface. This repository contains the upstream patch and evidence package.
+Published with approval on October 12, 2026; the exact reviewed archive is
+available in the [v0.1.0 release](https://github.com/bnright/scrollprize-tifxyz-cache/releases/tag/v0.1.0). No prize form or upstream PR has been submitted.
 
 On the original PHerc0139 w025 mesh, the upstream method returns **215 patches**
 after changing from 128Â³ to 256Â³ voxels. A fresh 256Â³ calculation returns **104**.
@@ -107,9 +108,9 @@ recomputation cost.
   and [baseline failures](evidence/baseline-regressions.txt).
 
 The October deadline is **October 31, 2026, 11:59 pm Pacific**
-(November 1, 1:59 am Central). Cash awards are discretionary. Identity, lawful
-payability, the precise data-agreement scope and final publication/submission
-approval remain user/organizer steps. An upstream PR additionally requires human
+(November 1, 1:59 am Central). Cash awards are discretionary. Private entrant details have been supplied. Lawful payability, the precise
+data-agreement scope, human review and final prize-submission approval remain
+user/organizer steps. An upstream PR additionally requires human
 code review and genuinely human-written commentary; the draft's personal
 verification checkbox is deliberately unchecked.
 
